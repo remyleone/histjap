@@ -5,6 +5,7 @@ before_install:
   - sudo apt-get install latexmk # Makefile pour latex
   - sudo apt-get install texlive-xetex # LaTeX avec support des fonts unicode
   - sudo apt-get install texlive-latex-recommended # plugins
+  - sudo apt-get install fonts-sil-gentium fonts-sil-gentium-basic # font gentium
 
 script:
   - make
