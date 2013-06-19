@@ -1,0 +1,125 @@
+\documentclass[11pt,dvipsnames,a4paper,svgnames]{book} % Classe du document
+%\usepackage[utf8]{inputenc} % Codage du texte dans le source (là on fait genre on est sous X. Genre... Je sais.)
+\usepackage[francais]{babel} % Typographie française
+\usepackage{xspace} %sert à babel pour mieux gérer après "", toussa.
+%\usepackage[T1]{fontenc} % Codage de la fonte. Permet d'avoir une césure française complète (même avec des lettres accentuées).
+
+\usepackage{fontspec}
+\usepackage{xunicode}
+
+% Pour avoir de la couleur
+\usepackage[usenames,svgnames,table]{xcolor}
+% \definecolor{newgreen}{rgb}{0,0.5,0}
+% \definecolor{newred}{rgb}{0.6,0,0}
+% Gestion des images
+\usepackage{graphicx} %\DeclareGraphicsExtensions{.jpg,.png,.gif}
+
+\usepackage{alltt}
+
+% En-tête et pied de page joli
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Normal :
+\fancyhf{}
+\fancyfoot[LE,RO]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0pt} %tailles des traits entre les en-tête et le corps du texte
+\renewcommand{\footrulewidth}{0.4pt}
+
+% TYPOGRAPHY
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [BoldFont={Gentium Basic Bold}, ItalicFont={Gentium Basic Italic}]{Gentium Basic}
+
+% Pour les débuts de chapitres(après \chapter)
+\fancypagestyle{plain}{
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[LE,RO]{\bfseries\thepage}
+\fancyfoot[LO,RE]{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}}
+
+
+% Pour la table des matières
+\fancypagestyle{toc}{%
+\fancyhf{} % clear all header and footer fields
+%\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+% Nouvelles commandes
+
+\newcommand{\todo}[1]{\Large TODO : #1 \normalsize}
+\newcommand{\guil}[1]{\guillemotleft~#1~\guillemotright}
+\newcommand{\guiluk}[1]{\textquotedblleft\,#1\,\textquotedblright}
+\newcommand{\titreun}[1]{\large \textbf{#1} : \normalsize}
+\newcommand{\sstitreun}[2]{\large \textbf{#1} (\emph{#2}) \textbf{:} \normalsize}
+\newcommand{\titredeux}[1]{\noindent \large \textit{#1} \normalsize}
+\newcommand{\incise}{\textendash}
+\newcommand{\doubleparskip}{\setlength{\parskip}{2.5ex plus 0.7ex minus 0.4ex}}
+
+\newcounter{numeroapho}
+\setcounter{numeroapho}{1} %Hop, on commence 
+%\newcommand{\titretrois}[1]{\stepcounter{numeroapho} \large \textbf{\arabic{numeroapho}}~\textendash~\textsc{#1} \normalsize}
+\newcommand{\titretrois}[1]{\stepcounter{numeroapho} \ \linebreak \linebreak \noindent \large \arabic{numeroapho}~\textemdash~\textsc{#1} \normalsize}
+\newcommand{\stitretrois}[1]{\stepcounter{numeroapho} \noindent \large \arabic{numeroapho}~\textemdash~\textsc{#1} \normalsize}
+\newcommand{\sautparagraphetrois}{\\}
+
+\title{Historiette du Japon}
+\author{Manfred}
+\date{\today}
+
+\raggedbottom %Pour éviter les paragraphes qui s'étalent sur une page entière
+
+\begin{document}
+
+%\maketitle
+
+
+% \begin{flushleft}
+% \end{flushleft}
+%\end{titlepage}
+
+% \thispagestyle{empty}
+
+
+% \newpage
+% \null
+% \thispagestyle{empty}
+% %\begin{comment}
+% \frontmatter
+% \tableofcontents
+% \thispagestyle{toc}
+% \pagebreak
+% \thispagestyle{empty}
+
+\mainmatter
+\pagenumbering{arabic}
+
+
+\begin{center}
+  \Large
+   \ 
+    \linebreak
+    \linebreak
+    \linebreak
+    \linebreak
+    \textbf{Historiette du Japon}
+  \normalsize
+  \flushright{Michael Z.~\incise~Dernière révision : 19/06/2013}
+
+\end{center}
+
+\doubleparskip
+
+\input{tex/intro}
+\input{tex/classic}
+\input{tex/feodal}
+\input{tex/war_provinces}
+\input{tex/edo}
+\input{tex/meiji_restauration}
+\input{tex/imperial_era}
+\input{tex/anecdote}
+
+\end{document}
