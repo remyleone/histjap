@@ -1,3 +1,6 @@
+notifications:
+  email: false
+
 before_install:
   - sudo apt-get install latexmk # Makefile pour latex
   - sudo apt-get install xetex # LaTeX avec support des fonts unicode
