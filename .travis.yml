@@ -4,6 +4,7 @@ notifications:
 before_install:
   - sudo apt-get install latexmk # Makefile pour latex
   - sudo apt-get install texlive-xetex # LaTeX avec support des fonts unicode
+  - sudo apt-get install texlive-latex-recommended # plugins
 
 script:
   - make
