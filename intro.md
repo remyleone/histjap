@@ -1,0 +1,74 @@
+Salut à tous, chers amis en pyjama blanc et jupette pour certains !
+
+Jérôme nous avait parlé il y a quelques semaines d'un livre d'histoire
+japonaise, écrit par un de ses amis~\incise~lequel donne d'ailleurs une
+conférence fin juin traitant du même thème que son second bouquin, les
+invasions mongoles au Japon. Il en avait parlé sur le forum du club, et
+l'avait ramené un soir pour le prêter, mais il n'a pas eu le succès escompté.
+Comme tout sujet, l'histoire japonaise peut paraître difficile d'accès au
+début~\incise~des noms pas franchement faciles à se rappeler, des dates à
+foison, d'autres considérations, d'autres valeurs morales\dots~\incise~et je
+me suis dit que ça pourrait être intéressant d'en proposer une introduction.
+Et puis, ça me permettra de réviser un peu, ce qui n'est pas plus mal.
+
+Mon but est donc d'écrire quelques paragraphes que j'espère assez simples à
+lire, à tout le moins pas chiants, qui survoleront 1500 ans d'histoire
+japonaise. Je vais essayer de restreindre les dates et les noms, et de laisser
+tomber certains détails, quitte à raconter l'histoire plutôt que l'Histoire. À
+chacun ensuite, si le virus a pris, d'approfondir telle ou telle période. Je
+vais également essayer de montrer, par les (r)évolutions techniques et
+sociales successives, comment les batailles rangées de samouraïs ont donné
+naissance aux arts martiaux que nous pratiquons chaque semaine. Il y aura six
+chapitres à notre voyage. Vais essayer de tout faire de tête, histoire de voir
+ce que ça donne\dots
+
+Pour que ce soit plus facile à lire, je l'ai mis en forme, histoire d'éviter
+de se ruiner les yeux sur l'écran. Bon, et maintenant que c'est en \LaTeX{},
+je pourrais même rajouter des macrons sur les \={o}\dots
+
+\textbf{EDIT, écrit à la fin :}
+
+Comme je remarque que j'ai un peu dépassé la limite d'un paragraphe par
+chapitre que je m'étais fixée, je vous propose donc une historiettette du
+Japon :
+
+
+- 500 : des clans d'origine paysanne se regroupent, et forment un pouvoir
+  centré sur la figure de l'Empereur. Petit à petit, les gens à la cour se
+  détachent des affaires locales, tenues par les guerriers, qui récupèrent
+  alors le pouvoir. 1180 : un clan en particulier se révèle victorieux, et
+  dépouille l'Empereur de toute influence, sinon symbolique. Le pouvoir est
+  alors tenu par un \guil{généralissime}, le Shogun.
+
+- 1280 : le petit-fils de Genghis Khan essaie de débarquer au Japon, mais n'y
+  arrive pas. 1333 : l'Empereur du moment essaie de re-récupérer le pouvoir,
+  mais n'y arrive pas. Cependant, l'influence du shogun diminue de plus en
+  plus, et en 1450, le Japon se morcelle en une multitude de cité-états
+  indépendantes, qui se font constamment la guerre.
+
+- Tout fout l'camp ma bonne dame. 1450 $\rightarrow$ 1600, guerre civile au
+  Japon. Petit à petit cependant, le pouvoir se concentre dans les mains
+  d'unificateurs successifs, le dernier restant étant du clan Tokugawa. Aidé
+  notamment par l'introduction révolutionnaire des arquebuses, \emph{via}
+  l'arrivée fortuite d'un navire portugais en 1550, la dynastie des Tokugawa
+  est fondée en 1600.
+
+- Le pays se cloisonne et se ferme à toute influence extérieure. Cela ouvre la
+  porte à 250 ans de paix, permettant aux anciennes casernes militaires de se
+  transformer en écoles d'arts martiaux. Mais\dots
+
+- 1860 : des navires occidentaux, notamment ceux du Commodore Perry
+  (\textsc{USA}) forcent, par leur supériorité technologique, le Japon à sortir
+  de son isolement. Le shogun accepte les traités inégaux, et le Japon
+  s'industrialise en sortant de sa période féodale. Cela provoque du
+  ressentiment de la part des anciens clans guerriers, qui voient là une
+  occasion de renverser le Shogun. C'est l'Empereur qui cristallise cette
+  rébellion, et, après une guerre civile \guil{contrôlée}, les anciens
+  samourais meurent avec le shogun, et l'Empereur est de nouveau installé sur
+  le Trône.
+
+- Face aux puissances occidentales, le Japon a besoin de symboles nationaux
+  forts. Poussée de l'impérialisme, avec les guerres contre la Chine (1895) et
+  la Russie (1905) qui sont deux victoires éclatantes pour le Japon.
+  Parallèlement, renouveau des arts martiaux traditionnels grâce à Jigoro Kano
+  (fondateur du judo). Quelques années plus tard, l'aikido d'O Sensei naît.
